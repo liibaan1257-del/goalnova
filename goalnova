@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoalNova | Elite Football Insights & Rising Stars</title>
+    <meta name="description" content="Welcome to GoalNova! Your ultimate home for professional football tactical analysis, transfer news, and deep-dive profiles on the next generation of football wonderkids.">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #38bdf8;
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #010409;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            color: var(--accent-color);
+            font-style: italic;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #161b22;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .welcome-box {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent-color);
+            margin-bottom: 30px;
+        }
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .post-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+            padding: 20px;
+        }
+        .post-card h3 {
+            color: #ffffff;
+            margin-top: 0;
+        }
+        .post-card p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #000000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #010409;
+            margin-top: 40px;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GoalNova</h1>
+        <p>Where Football’s Next Generation Becomes Legendary</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Nova Stars</a>
+        <a href="#">Tactical Hub</a>
+        <a href="#">Legends</a>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-box">
+            <h2>Welcome to GoalNova!</h2>
+            <p>Your premier destination for deep tactical analysis, trending football improvement training insights, and tracking the world's most talented wonderkids.</p>
+        </div>
+
+        <h2>Latest Football Insights</h2>
+        <div class="posts-grid">
+            <!-- Article 1 -->
+            <div class="post-card">
+                <h3>Inside Premier League Training Methods</h3>
+                <p>Discover how elite English academies build the stamina, speed, and technical masterclasses of their youngest rising stars...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="post-card">
+                <h3>The Evolution of Cristiano Ronaldo</h3>
+                <p>An in-depth look at the daily routines and scoring secrets keeping CR7 at the absolute peak of world football today...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 GoalNova. All Rights Reserved. | Designed for Next-Gen Football Fans</p>
+    </footer>
+
+</body>
+</html>
